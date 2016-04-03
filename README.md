@@ -41,3 +41,11 @@ Start with Play or Debug.
 To test requests (post, get, put and delete), I use the following plugin for chrome:
 
 ![rest plugin](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/chrome_rest_plugin.png)
+
+Request example.
+
+![request test](https://github.com/EloiBilek/eloibilek.github.io/raw/master/JMP/resquest_test.png)
+
+Response example.
+
+![response test](https://github.com/EloiBilek/eloibilek.github.io/raw/master/JMP/response_test.png)
