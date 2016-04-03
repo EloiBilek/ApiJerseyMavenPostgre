@@ -61,7 +61,7 @@ public class UserController {
 	public Response create(User resource) {
 		try {
 			resource = userService.create(resource);
-			return Response.status(200).entity(resource).build();
+			return Response.status(201).entity(resource).build();
 		} catch (Exception e) {
 			throw new WebApplicationException(500);
 		}
