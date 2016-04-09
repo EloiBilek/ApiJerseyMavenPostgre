@@ -2,7 +2,7 @@
 Title: ApiJerseyMavenPostgre
 Description: API example using Jersey, CDI, JPA, Maven and Postgresql.
 Author: Eloi Bilek
-Tags: maven, restfull, api, java, jersey
+Tags: maven, restful, api, java, jersey
 Created: 2016 Abr 02
 
 ---
@@ -10,7 +10,7 @@ Created: 2016 Abr 02
 # ApiJerseyMavenPostgre
 =======================
 
-It 's a very simple example of an RestFull API, CRUD of User.
+It 's a very simple example of an RestFul API, CRUD of User.
 Using:
 * Java 8
 * Maven 3
