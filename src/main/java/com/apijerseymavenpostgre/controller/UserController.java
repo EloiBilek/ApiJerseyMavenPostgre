@@ -40,7 +40,7 @@ public class UserController {
 		try {
 			return userService.findAll();
 		} catch (Exception e) {
-			throw new WebApplicationException(e.getCause(), 500);
+			throw new WebApplicationException(e, 500);
 		}
 	}
 
@@ -51,7 +51,7 @@ public class UserController {
 		try {
 			return userService.findById(id);
 		} catch (Exception e) {
-			throw new WebApplicationException(500);
+			throw new WebApplicationException(e, 500);
 		}
 	}
 
@@ -63,7 +63,8 @@ public class UserController {
 			resource = userService.create(resource);
 			return Response.status(201).entity(resource).build();
 		} catch (Exception e) {
-			throw new WebApplicationException(500);
+			System.out.println(e.getMessage());
+			throw new WebApplicationException(e, 500);
 		}
 	}
 
@@ -75,7 +76,7 @@ public class UserController {
 			resource = userService.update(resource);
 			return Response.status(200).entity(resource).build();
 		} catch (Exception e) {
-			throw new WebApplicationException(500);
+			throw new WebApplicationException(e, 500);
 		}
 	}
 
@@ -87,8 +88,7 @@ public class UserController {
 			userService.deleteById(id);
 			return Response.status(200).entity("User id " + id + " - deleted.").build();
 		} catch (Exception e) {
-			throw new WebApplicationException(500);
+			throw new WebApplicationException(e, 500);
 		}
 	}
-
 }
