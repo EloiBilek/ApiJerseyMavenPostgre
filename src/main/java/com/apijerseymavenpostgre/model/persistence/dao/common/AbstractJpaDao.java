@@ -7,7 +7,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 
 import com.apijerseymavenpostgre.config.LocalEntityManagerFactory;
-import com.apijerseymavenpostgre.model.persistence.IOperations;
+import com.apijerseymavenpostgre.model.common.IOperations;
 
 /**
  * @author eloi eloibilek@gmail.com

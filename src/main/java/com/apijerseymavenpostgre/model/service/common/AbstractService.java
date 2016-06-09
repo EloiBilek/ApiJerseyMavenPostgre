@@ -6,7 +6,7 @@ package com.apijerseymavenpostgre.model.service.common;
 import java.io.Serializable;
 import java.util.List;
 
-import com.apijerseymavenpostgre.model.persistence.IOperations;
+import com.apijerseymavenpostgre.model.common.IOperations;
 
 /**
  * @author eloi eloibilek@gmail.com

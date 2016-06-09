@@ -5,8 +5,8 @@ package com.apijerseymavenpostgre.model.service;
 
 import java.util.List;
 
+import com.apijerseymavenpostgre.model.common.IOperations;
 import com.apijerseymavenpostgre.model.entity.User;
-import com.apijerseymavenpostgre.model.persistence.IOperations;
 
 /**
  * @author eloi

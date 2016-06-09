@@ -1,4 +1,4 @@
-package com.apijerseymavenpostgre.controller;
+package com.apijerseymavenpostgre.resource;
 
 import java.util.List;
 
@@ -25,12 +25,12 @@ import com.apijerseymavenpostgre.model.service.IUserService;
 
 @Path("users")
 @RequestScoped
-public class UserController {
+public class UserResource {
 
 	@Inject
 	IUserService userService;
 
-	public UserController() {
+	public UserResource() {
 		super();
 	}
 
