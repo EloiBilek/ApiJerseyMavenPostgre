@@ -4,8 +4,8 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 
 import com.apijerseymavenpostgre.model.common.IOperations;
+import com.apijerseymavenpostgre.model.dao.IUserDAO;
 import com.apijerseymavenpostgre.model.entity.User;
-import com.apijerseymavenpostgre.model.persistence.dao.IUserDAO;
 import com.apijerseymavenpostgre.model.service.IUserService;
 import com.apijerseymavenpostgre.model.service.common.AbstractService;
 

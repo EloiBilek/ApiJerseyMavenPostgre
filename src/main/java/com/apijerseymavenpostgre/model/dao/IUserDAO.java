@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.apijerseymavenpostgre.model.persistence.dao;
+package com.apijerseymavenpostgre.model.dao;
 
 import java.util.List;
 
