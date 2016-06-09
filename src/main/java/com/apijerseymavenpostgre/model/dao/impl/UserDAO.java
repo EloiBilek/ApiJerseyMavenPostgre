@@ -1,10 +1,10 @@
-package com.apijerseymavenpostgre.model.persistence.dao.impl;
+package com.apijerseymavenpostgre.model.dao.impl;
 
 import javax.inject.Singleton;
 
 import com.apijerseymavenpostgre.model.dao.IUserDAO;
+import com.apijerseymavenpostgre.model.dao.common.AbstractJpaDao;
 import com.apijerseymavenpostgre.model.entity.User;
-import com.apijerseymavenpostgre.model.persistence.dao.common.AbstractJpaDao;
 
 /**
  * @author eloi eloibilek@gmail.com

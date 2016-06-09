@@ -1,4 +1,4 @@
-package com.apijerseymavenpostgre.model.persistence.dao.common;
+package com.apijerseymavenpostgre.model.dao.common;
 
 import java.io.Serializable;
 import java.util.ArrayList;
